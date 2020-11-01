@@ -20,6 +20,13 @@ public class UserController {
         this.userService = userService;
     }
 
+
+    @GetMapping(value = "/work")
+        String hello(){
+            return "Hello world";
+        }
+
+
     // Создание пользователя user
     @PostMapping(value="/users")
     public ResponseEntity<?> createUser(@RequestBody User user){
