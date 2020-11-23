@@ -46,6 +46,7 @@ public class PostController {
                 : new ResponseEntity<>(HttpStatus.NOT_FOUND);
     }
 
+    // Получить все посты с указанным логином
     @GetMapping(value = "/posts/login/{login}")
     public ResponseEntity<List<Post>> findAllPostByLogin(@PathVariable(name = "login") String login){
         final List<Post> posts= postService.getAllPostByLogin(login);

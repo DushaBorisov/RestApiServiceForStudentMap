@@ -7,5 +7,5 @@ import java.util.List;
 
 public interface PostRepository extends JpaRepository<Post, Integer> {
     List<Post> findByLogin(String login);
-    List<Post> findByName(String name);
+    List<Post> findByLocation(String location);
 }

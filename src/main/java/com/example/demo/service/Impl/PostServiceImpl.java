@@ -27,7 +27,7 @@ public class PostServiceImpl implements PostService {
 
     @Override
     public List<Post> getAllPostByPlace(String name) {
-        return postRepository.findByName(name);
+        return postRepository.findByLocation(name);
     }
 
     @Override
