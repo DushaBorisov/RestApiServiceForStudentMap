@@ -32,6 +32,9 @@ public class Post {
     @Column(name = "img")
     private String img;
 
+    @Column(name = "rating")
+    private float rating;
+
     public Integer getId() {
         return id;
     }
