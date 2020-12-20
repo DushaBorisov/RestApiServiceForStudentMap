@@ -90,4 +90,12 @@ public class Post {
     public void setImg(String img) {
         this.img = img;
     }
+
+    public float getRating() {
+        return rating;
+    }
+
+    public void setRating(float rating) {
+        this.rating = rating;
+    }
 }
