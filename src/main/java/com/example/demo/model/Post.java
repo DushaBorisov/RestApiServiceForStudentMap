@@ -33,7 +33,7 @@ public class Post {
     private String img;
 
     @Column(name = "rating")
-    private int rating;
+    private String rating;
 
     public Integer getId() {
         return id;
@@ -91,11 +91,11 @@ public class Post {
         this.img = img;
     }
 
-    public float getRating() {
+    public String getRating() {
         return rating;
     }
 
-    public void setRating(int rating) {
+    public void setRating(int String) {
         this.rating = rating;
     }
 }
