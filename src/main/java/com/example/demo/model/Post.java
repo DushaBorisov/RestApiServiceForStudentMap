@@ -95,7 +95,7 @@ public class Post {
         return rating;
     }
 
-    public void setRating(int String) {
+    public void setRating(String rating) {
         this.rating = rating;
     }
 }
