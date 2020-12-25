@@ -34,6 +34,10 @@ public class User {
     @Column(name="gender")
     private String gender;
 
+    @Column(name="img")
+    private String img;
+
+
 
     public Integer getId() {
         return id;
@@ -89,5 +93,13 @@ public class User {
 
     public void setGender(String gender) {
         this.gender = gender;
+    }
+
+    public String getImg() {
+        return img;
+    }
+
+    public void setImg(String img) {
+        this.img = img;
     }
 }
