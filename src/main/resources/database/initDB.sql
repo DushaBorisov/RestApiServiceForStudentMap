@@ -30,7 +30,7 @@ CREATE TABLE IF NOT EXISTS posts
     location VARCHAR(100),
     text VARCHAR(2000),
     img VARCHAR(1000),
-    rating FLOAT
+    rating VARCHAR(20)
 );
 
 --DROP TABLE IF EXISTS posts;
